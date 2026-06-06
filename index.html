@@ -67,8 +67,8 @@
 	<h4 style="margin-top: 20px;">Main Contributions</h4>
 	<ul>
 		<li>We present BareWave, a fully waveform-native framework for zero-shot TTS, with no intermediate acoustic representation, pretrained inference-time component, or separate vocoder.</li>
-		<li>We develop a direct text-to-wave training recipe that combines representation alignment, staged corruption scheduling, and velocity-aware perceptual alignment while preserving a single waveform-native inference path.</li>
-		<li>We identify that under velocity-space flow objectives, data-space perceptual losses lose relative influence at cleaner timesteps, and propose Velocity-Aware Perceptual Alignment (VAPA) to make auxiliary perceptual objectives reflect the temporal structure of the velocity-space flow objective.</li>
+		<li>We develop a direct text-to-wave training recipe that combines representation alignment, staged noise scheduling, and velocity-aware perceptual alignment while preserving a single waveform-native inference path.</li>
+		<li>We observe that data-space perceptual losses are implicitly down-weighted relative to the velocity-space flow objective near cleaner timesteps, and propose Velocity-Aware Perceptual Alignment (VAPA) to match the temporal structure of the flow objective.</li>
 	</ul>
 </div>
 
